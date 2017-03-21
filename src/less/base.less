@@ -2,6 +2,9 @@ body {
   margin: 0;
   padding: 0; 
 }
+p {
+    margin: 0px;
+}
 .email-container {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
@@ -23,46 +26,95 @@ body {
     font-size: 18px;
     font-weight: bold;
     text-align: left;
-    margin-bottom: 35px;
+    margin-bottom: 15px;
     display: block;
-    margin-left: -60px;
+    margin-left: -15px;
     width: 250px;
 }
 .email-line1 {
-    height: 441px;
-    background: url(../img/content-line1.png) no-repeat 100% 0px;
+    background: aqua no-repeat 100% 0px;
     padding-bottom: 18px;
+    text-align: right;
+}
+.email-line1 .email-text-block {
+    margin-top: 55px;
 }
 .email-line2 {
-    height: 441px;
-    background: url(../img/content-line2.png) no-repeat 100% 0px;
+//    background: url(../img/content-line2.png) no-repeat 100% 0px;
+    background: red;
     padding-bottom: 18px;
-}
-.email-line2 .email-text-block {
-    line-height: 24px;
-    width: 64%;
-    float: right;
-    text-align: left;
-    margin-top: 60px;
-    margin-right: 48px;
+    text-align: right;
 }
 .email-line2 .text-block {
-    line-height: 27px;
+    line-height: 22px;
+    padding-top: 5px;
+    margin-bottom: 40px;
+    text-align: left;
 }
 .email-text-block {
-    width: 56%;
-    float: right;
+    width: 60%;
+    display: inline-block;
     text-align: left;
     margin-top: 83px;
-    margin-right: 72px;
 }
 .text-block {
+    position: relative;
     line-height: 30px;
     text-align: center;
+    background: #fafafa;
+    padding: 10px;
+    margin-right: 25px;
+    padding-right: 20px;
+    padding-top: 5px;
 }
-
-// .email-header-title {
-//     display: block;
-//     text-transform: uppercase;
-//     line-height: 15px;
-// }
+.text-block-border {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -15px;
+    left: -15px;
+    border: 2px solid #cba37c;
+}
+.btn {
+    text-align: center;
+}
+.btn a {
+    display: inline-block;
+    width: 181px;
+    height: 46px;
+    line-height: 46px;
+    background: #cba37c;
+    text-align: center;
+    text-decoration: none;
+    color: #333333;
+}
+.email-line3 {
+    background: #333333;
+    height: 100%;
+    border-bottom: 20px solid #fff;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.line3-title {
+    color: white;
+    font-weight: 800;
+    font-size: 28px;
+}
+.items {
+    font-size: 0px;
+    margin-top: 15px;
+}
+.item {
+    width: 183px;
+    height: 294px;
+    display: inline-block;
+}
+.item1 {
+    background: url("../img/content-line4-1.png") no-repeat 50% 50%;
+}
+.item2 {
+    background: url("../img/content-line4-2.png") no-repeat 50% 50%;
+}
+.item3 {
+    background: url("../img/content-line4-3.png") no-repeat 50% 50%;
+}
