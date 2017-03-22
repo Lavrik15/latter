@@ -102,7 +102,7 @@ p {
 	color: #333333;
 }
 
-.email-line3 {
+.email-line4 {
 	background: #333333;
 	height: 100%;
 	border-bottom: 20px solid #fff;
@@ -110,7 +110,7 @@ p {
 	padding-bottom: 20px;
 }
 
-.line3-title {
+.line4-title {
 	color: white;
 	font-weight: 800;
 	font-size: 28px;
@@ -137,5 +137,20 @@ p {
 
 .item3 {
 	background: url("../img/content-line4-3.png") no-repeat 50% 50%;
+}
+
+.email-line3 {
+	background-color: blueviolet;
+	text-align: right;
+	border-bottom: 20px solid #fff;
+	padding-bottom: 20px;
+}
+
+.email-line3 .email-text-block {
+	margin-top: 30px;
+}
+
+.email-line3 .text-block {
+	margin-bottom: 40px;
 }
 
